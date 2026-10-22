@@ -66,9 +66,9 @@ A two-sample t-test (equal variances assumed) was conducted at α = 0.05.
 
 **RQ2 — Is there a significant difference in average credit score across geographic locations?**
 
-A one-way ANOVA was conducted at α = 0.05 to compare credit scores across France, Spain, and Germany.
+A one-way ANOVA at α = 0.05 compared credit scores across France, Germany, and Spain. In this 500-record workbook, the group sizes are 171, 157, and 172, respectively. The result is **F(2, 497) = 0.9898, p = 0.3724**. We do not reject the null hypothesis; this sample does not provide sufficient evidence that mean credit scores differ by geography. ANOVA does not establish that the group means are identical or explain why any observed differences occur.
 
-**Conclusion:** Based on the ANOVA results, we evaluate whether geographic location has a statistically significant effect on average customer credit scores across the three regions.
+The calculation, group summary statistics, data checks, and interpretation are included in `Bank_Churn_Analysis_Repaired.xlsx`. The workbook source does not document where this 500-row sample came from. Confirm its provenance, construction, and license before sharing it as representative bank-customer data. The observed churn share is 54.4%, so avoid generalizing that rate without verifying how the sample was assembled.
 
 ---
 
